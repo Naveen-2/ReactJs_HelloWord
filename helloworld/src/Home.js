@@ -5,9 +5,9 @@ import './App.css';
 class Home extends React.Component {
     render() {
         return(
-            <div>
-                Home page
-            </div>
+            <>
+                <h1>Bridgelabz - Home page</h1>
+            </>
         )
     }
 }

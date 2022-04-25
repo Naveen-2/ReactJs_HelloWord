@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 import logo from './assets/images/BL-logo.jpg'
+import Home from "./Home.js";
+import About from "./About.js";
+import { Switch, Link, Route } from "react-router-dom";
 
 class App extends React.Component {
   url="https://www.bridgelabz.com/"
@@ -61,6 +64,16 @@ class App extends React.Component {
             To know about us, visit <a href = {this.url}>BridgeLabz </a> 
             to learn even more about our misiion i.e. <strong>Employability to all</strong>.
         </p>  
+        <li>
+          <Link to="/home">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <Switch>
+          <Route exact path="/home" component={Home}></Route>
+          <Route exact path="/about" component={About}></Route>
+        </Switch>
       </div>
     )
   }
