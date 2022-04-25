@@ -1,17 +1,50 @@
+img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+}
+
+.error-output {
+  font-size: 12px;
+  font-style: italic;
+  color: red;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-content {
+  width: 600px;
+  margin: 0 auto;
+  background-color: orange;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
 h1 {
+  font-size: 60px;
   text-align: center;
   font-size: xx-large;
 }
 
-img{
-  display: block;
-  margin: 0 auto;
-  width: 25%;
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
 }
 
-.error-output {
-  margin-left: 10px;
-  font-size: 12px;
-  font-style: italic;
-  color: red;
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+.input-content {
+  padding: 10px;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
 }
